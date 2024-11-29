@@ -209,7 +209,7 @@
     {
       "alias": "performance",
       "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4203/remoteEntry.mjs",
+      "federationContainerName": "https://mdrmtz.github.io/shell/performance/remoteEntry.mjs",
       "moduleName": "Routes",
       "usedIn": [
         "consume shared module (default) performance/Routes@* (strict) (fallback: apps/performance/src/app/remote-entry/entry.routes.ts)"
@@ -219,7 +219,7 @@
     {
       "alias": "ai",
       "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4202/remoteEntry.mjs",
+      "federationContainerName": "https://mdrmtz.github.io/shell/ai/remoteEntry.mjs",
       "moduleName": "Routes",
       "usedIn": [
         "consume shared module (default) ai/Routes@* (strict) (fallback: apps/ai/src/app/remote-entry/entry.routes.ts)"
@@ -229,7 +229,7 @@
     {
       "alias": "blog",
       "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "federationContainerName": "https://mdrmtz.github.io/shell/blog/remoteEntry.mjs",
       "moduleName": "Routes",
       "usedIn": [
         "consume shared module (default) blog/Routes@* (strict) (fallback: apps/blog/src/app/remote-entry/entry.routes.ts)"

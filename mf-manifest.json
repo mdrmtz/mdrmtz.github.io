@@ -187,19 +187,19 @@
   ],
   "remotes": [
     {
-      "federationContainerName": "http://localhost:4203/remoteEntry.mjs",
+      "federationContainerName": "https://mdrmtz.github.io/shell/performance/remoteEntry.mjs",
       "moduleName": "Routes",
       "alias": "performance",
       "entry": "*"
     },
     {
-      "federationContainerName": "http://localhost:4202/remoteEntry.mjs",
+      "federationContainerName": "https://mdrmtz.github.io/shell/ai/remoteEntry.mjs",
       "moduleName": "Routes",
       "alias": "ai",
       "entry": "*"
     },
     {
-      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "federationContainerName": "https://mdrmtz.github.io/shell/blog/remoteEntry.mjs",
       "moduleName": "Routes",
       "alias": "blog",
       "entry": "*"
