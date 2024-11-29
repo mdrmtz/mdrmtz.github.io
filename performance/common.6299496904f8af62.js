@@ -1,0 +1,1 @@
+(self.webpackChunkperformance=self.webpackChunkperformance||[]).push([[76],{2584:(m,n,e)=>{e.r(n),e.d(n,{remoteRoutes:()=>t});const t=[{path:"",component:e(3883).a}]}}]);

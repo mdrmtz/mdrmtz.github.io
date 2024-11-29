@@ -1,0 +1,241 @@
+{
+  "id": "shell",
+  "name": "shell",
+  "metaData": {
+    "name": "shell",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mdrmtz.github.io/source"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "shell",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.13",
+      "shareScope": "default",
+      "name": "@angular/common/http",
+      "version": "18.2.13",
+      "eager": false,
+      "id": "shell:@angular/common/http",
+      "assets": {
+        "js": {
+          "async": [
+            "705.c8cc71299bf96c28.js",
+            "177.b447a890fda70109.js",
+            "488.a859a095bcc12223.js",
+            "546.2d4df2b6927c198d.js"
+          ],
+          "sync": [
+            "626.cbb6767c487c8dd4.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.13",
+      "shareScope": "default",
+      "name": "@angular/common",
+      "version": "18.2.13",
+      "eager": false,
+      "id": "shell:@angular/common",
+      "assets": {
+        "js": {
+          "async": [
+            "705.c8cc71299bf96c28.js",
+            "488.a859a095bcc12223.js",
+            "546.2d4df2b6927c198d.js"
+          ],
+          "sync": [
+            "177.b447a890fda70109.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.13",
+      "shareScope": "default",
+      "name": "@angular/core/primitives/event-dispatch",
+      "version": "18.2.13",
+      "eager": false,
+      "id": "shell:@angular/core/primitives/event-dispatch",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "546.2d4df2b6927c198d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.13",
+      "shareScope": "default",
+      "name": "@angular/core/primitives/signals",
+      "version": "18.2.13",
+      "eager": false,
+      "id": "shell:@angular/core/primitives/signals",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "488.a859a095bcc12223.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.13",
+      "shareScope": "default",
+      "name": "@angular/core",
+      "version": "18.2.13",
+      "eager": false,
+      "id": "shell:@angular/core",
+      "assets": {
+        "js": {
+          "async": [
+            "488.a859a095bcc12223.js",
+            "546.2d4df2b6927c198d.js"
+          ],
+          "sync": [
+            "705.c8cc71299bf96c28.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.13",
+      "shareScope": "default",
+      "name": "@angular/platform-browser",
+      "version": "18.2.13",
+      "eager": false,
+      "id": "shell:@angular/platform-browser",
+      "assets": {
+        "js": {
+          "async": [
+            "705.c8cc71299bf96c28.js",
+            "177.b447a890fda70109.js",
+            "203.e80ef2174e7b0351.js",
+            "626.cbb6767c487c8dd4.js",
+            "488.a859a095bcc12223.js",
+            "546.2d4df2b6927c198d.js"
+          ],
+          "sync": [
+            "345.de6ab7f171647982.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.13",
+      "shareScope": "default",
+      "name": "@angular/router",
+      "version": "18.2.13",
+      "eager": false,
+      "id": "shell:@angular/router",
+      "assets": {
+        "js": {
+          "async": [
+            "345.de6ab7f171647982.js",
+            "705.c8cc71299bf96c28.js",
+            "177.b447a890fda70109.js",
+            "626.cbb6767c487c8dd4.js",
+            "488.a859a095bcc12223.js",
+            "546.2d4df2b6927c198d.js"
+          ],
+          "sync": [
+            "406.e459e185b1ff85cd.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "performance",
+      "consumingFederationContainerName": "shell",
+      "federationContainerName": "http://localhost:4203/remoteEntry.mjs",
+      "moduleName": "Routes",
+      "usedIn": [
+        "consume shared module (default) performance/Routes@* (strict) (fallback: apps/performance/src/app/remote-entry/entry.routes.ts)"
+      ],
+      "version": "*"
+    },
+    {
+      "alias": "ai",
+      "consumingFederationContainerName": "shell",
+      "federationContainerName": "http://localhost:4202/remoteEntry.mjs",
+      "moduleName": "Routes",
+      "usedIn": [
+        "consume shared module (default) ai/Routes@* (strict) (fallback: apps/ai/src/app/remote-entry/entry.routes.ts)"
+      ],
+      "version": "*"
+    },
+    {
+      "alias": "blog",
+      "consumingFederationContainerName": "shell",
+      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "moduleName": "Routes",
+      "usedIn": [
+        "consume shared module (default) blog/Routes@* (strict) (fallback: apps/blog/src/app/remote-entry/entry.routes.ts)"
+      ],
+      "version": "*"
+    }
+  ],
+  "exposes": []
+}

@@ -1,0 +1,1 @@
+(self.webpackChunkblog=self.webpackChunkblog||[]).push([[76],{4132:(s,n,o)=>{o.r(n),o.d(n,{remoteRoutes:()=>t});const t=[{path:"",component:o(2879).a}]}}]);

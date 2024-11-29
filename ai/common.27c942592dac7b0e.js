@@ -1,0 +1,1 @@
+(self.webpackChunkai=self.webpackChunkai||[]).push([[76],{1114:(s,o,n)=>{n.r(o),n.d(o,{remoteRoutes:()=>t});const t=[{path:"",component:n(1333).a}]}}]);
